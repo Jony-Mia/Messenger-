@@ -1,0 +1,23 @@
+body {
+  font-size: 15pt;
+}
+
+
+
+.pos {
+  position: absolute;
+  bottom: 0
+}
+
+.box {
+  width: 70%;
+  padding: 5px;
+  /*    background: var(--bs-danger);
+ */
+  position: absolute;
+  bottom: 80px;
+  right: 5px;
+
+
+
+}
