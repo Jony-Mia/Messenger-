@@ -2030,10 +2030,6 @@ progress {
   }
 }
 
-rounded-pill {
-  border-radius: var(--bs-border-radius-pill) !important
-}
-
 .table {
   --bs-table-color: var(--bs-body-color);
   --bs-table-bg: transparent;
@@ -5499,8 +5495,8 @@ fieldset:disabled .btn {
   --bs-list-group-action-active-bg: #e9ecef;
   --bs-list-group-disabled-color: #6c757d;
   --bs-list-group-disabled-bg: #fff;
-  --bs-list-group-active-color: #fff;
-  --bs-list-group-active-bg: #0d6efd;
+  --bs-list-group-active-color: /*#fff*/#000;
+  --bs-list-group-active-bg: /*#0d6efd*/var(--bs-gray-200);
   --bs-list-group-active-border-color: #0d6efd;
   display: flex;
   flex-direction: column;

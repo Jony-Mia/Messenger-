@@ -25,13 +25,13 @@
 
       <table class="table position-absolute top-0 table-info ">
         <tr>
-          <td><i class="fa rounded-pill btn   m-2 fa-arrow-left"></i></td>
+          <td><i onclick="close()" class="fa rounded-pill btn   m-2 fa-arrow-left"></i></td>
           <td><img class=" rounded-circle" src="../file/jony.jpeg" height="50"></td>
           <td>
             <p class="mt-2">Jony</p>
           </td>
 
-          <td><i class="fa rounded-pill btn   m-2 fa-phone"></i></td>
+          <td><i class="fa rounded-pill btn  m-2 fa-phone"></i></td>
           <td><i class="fa rounded-pill btn m-2 fa-video"></i></td>
           <td><i class="fa rounded-pill btn m-2 fa-info"></i></td>
         </tr>
@@ -69,13 +69,15 @@
 
           </td>
           <td>
-            <i class="fa m-1 p-1 rounded-pill     fa-microphone"></i>
-          </td>
-          <td><input id="text" class="p-1 form-control" style="width: 100%" type="text"></td>
-          <td>
-            <button id="send" class="btn btn-danger">
 
-              <i id="em" class="fa m-1 rounded-pill   fa-face-smile"></i>
+            <i id="microphone" class=" p-2  fa m-1 p-1 rounded-pill     fa-microphone"></i>   
+
+          </td>
+          <td><textarea placeholder="Message" id="text" class="p-1 form-control" style="width: 100%" type="text" ></textarea></td>
+          <td>
+            <button id="send" class="rounded-pill btn btn-danger">
+
+              <i id="em"  class="fa m-1   fa-face-smile"></i>
             </button>
 
 

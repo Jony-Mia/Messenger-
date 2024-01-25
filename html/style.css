@@ -18,6 +18,11 @@ body {
   bottom: 80px;
   right: 5px;
 
+}
 
-
+textarea::-webkit-scrollbar{
+  background: transparent;
+}
+textarea::-webkit-scrollbar-thumb{
+  background: transparent;
 }
